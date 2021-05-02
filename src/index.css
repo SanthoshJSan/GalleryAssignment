@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.center{
+  margin-left:auto;
+  margin-right:auto;
+}
+h1{
+   text-align: center;
+}
+#root1{
+  margin-top:20px;
+  display:grid;
+  grid-template-columns: auto auto auto ;
+  padding-top:20px;
+  grid-row-gap:50px;
+  
+  align-items:center;
+  justify-content:space-around;
+}
+
+.item{
+  margin-left:auto;
+  margin-right:auto;
+  border:1.5px solid black;
+}
+#toggleButton{
+  display:block;
+  height:40px;
+  width:80px;
+  border-radius: 20px;
+  border:2px solid black;
+  color:white;
+  background-color: black;
+  font-weight:normal;
+}
+#toggleButton:hover{
+background-color:white;
+color:black;
+}
