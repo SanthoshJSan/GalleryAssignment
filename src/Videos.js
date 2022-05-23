@@ -13,7 +13,7 @@ function importAll(r) {
   
     return(
         <div id='root1'>{
-        videoArray.map((item,index)=><video className="item" key={index} src={item} height="200px" controls/>)
+        videoArray.map((item,index)=><video className="item" key={index} src={item} width="310px" controls/>)
         
       }
     </div>

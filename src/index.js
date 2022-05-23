@@ -19,7 +19,10 @@ function App(){
   
   return(
     <div >
+      <div className="fixed">
+    <h1>Gallery</h1>
     <button id="toggleButton" className="center" onClick={click}>{data}</button>
+    </div>
     <div style={style1}>
     <Images/></div>
     <div style={style2}>
